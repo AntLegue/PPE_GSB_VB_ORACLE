@@ -1,0 +1,9 @@
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\bin\Debug\PPE3.exe
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\bin\Debug\PPE3.pdb
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\bin\Debug\PPE3.xml
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.Form1.resources
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.Resources.resources
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.vbproj.GenerateResource.Cache
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.exe
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.xml
+C:\Users\antoi\AppData\Local\Temporary Projects\PPE3\obj\x86\Debug\PPE3.pdb
