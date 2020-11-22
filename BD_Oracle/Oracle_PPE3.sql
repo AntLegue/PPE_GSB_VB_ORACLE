@@ -1,12 +1,12 @@
 -- -----------------------------------------------------------------------------
---             Génération d'une base de données pour
+--             Gï¿½nï¿½ration d'une base de donnï¿½es pour
 --                      Oracle Version 10g
 --                        (6/11/2020 11:29:26)
 -- -----------------------------------------------------------------------------
 --      Nom de la base : GSB
---      Projet : 
+--      Projet :
 --      Auteur : ESTRAN
---      Date de dernière modification : 6/11/2020 11:29:11
+--      Date de derniï¿½re modification : 6/11/2020 11:29:11
 -- -----------------------------------------------------------------------------
 
 DROP TABLE SECTEUR CASCADE CONSTRAINTS;
@@ -36,7 +36,7 @@ CREATE TABLE SECTEUR
     ID_SEC NUMBER(2)  NOT NULL,
     ID_REG NUMBER(2)  NOT NULL,
     LIB_SEC VARCHAR2(32)  NULL
-,   CONSTRAINT PK_SECTEUR PRIMARY KEY (ID_SEC)  
+,   CONSTRAINT PK_SECTEUR PRIMARY KEY (ID_SEC)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -51,7 +51,8 @@ CREATE TABLE VISITEUR
     PRENOM_VIS VARCHAR2(32)  NULL,
     ADRESSE_VIS VARCHAR2(32)  NULL,
     CP_VIS VARCHAR2(32)  NULL,
-    VILLE_VIS VARCHAR2(32)  NULL
+    VILLE_VIS VARCHAR2(32)  NULL,
+    LOGIN_VIS VARCHAR2(16) NULL
 ,   CONSTRAINT PK_VISITEUR PRIMARY KEY (ID_VIS)  
    ) ;
 
@@ -65,7 +66,7 @@ CREATE TABLE MEDICAMENT
     LIB_MEDIC VARCHAR2(32)  NULL,
     TYPE_MEDIC VARCHAR2(32)  NULL,
     MODE_ADMIN_MEDIC VARCHAR2(32)  NULL
-,   CONSTRAINT PK_MEDICAMENT PRIMARY KEY (ID_MEDIC)  
+,   CONSTRAINT PK_MEDICAMENT PRIMARY KEY (ID_MEDIC)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -81,7 +82,7 @@ CREATE TABLE RESPONSABLE_SECTEUR
     ADRESSE_RS VARCHAR2(32)  NULL,
     CP_RS VARCHAR2(32)  NULL,
     VILLE_RS VARCHAR2(32)  NULL
-,   CONSTRAINT PK_RESPONSABLE_SECTEUR PRIMARY KEY (ID_RS)  
+,   CONSTRAINT PK_RESPONSABLE_SECTEUR PRIMARY KEY (ID_RS)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -96,7 +97,7 @@ CREATE TABLE MEDECIN
     ADRESSE_MED VARCHAR2(32)  NULL,
     CP_MED VARCHAR2(32)  NULL,
     VILLE_MED VARCHAR2(32)  NULL
-,   CONSTRAINT PK_MEDECIN PRIMARY KEY (ID_MED)  
+,   CONSTRAINT PK_MEDECIN PRIMARY KEY (ID_MED)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -112,7 +113,7 @@ CREATE TABLE DELEGUE_REGIONAL
     ADRESSE_DR VARCHAR2(32)  NULL,
     CP_DR VARCHAR2(32)  NULL,
     VILLE_DR VARCHAR2(32)  NULL
-,   CONSTRAINT PK_DELEGUE_REGIONAL PRIMARY KEY (ID_DR)  
+,   CONSTRAINT PK_DELEGUE_REGIONAL PRIMARY KEY (ID_DR)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -128,7 +129,7 @@ CREATE TABLE COMPTE_RENDU
     DATE_CR VARCHAR2(32)  NULL,
     ETAT_CR VARCHAR2(32)  NULL,
     MOTIF_CR VARCHAR2(32)  NULL
-,   CONSTRAINT PK_COMPTE_RENDU PRIMARY KEY (ID_CR)  
+,   CONSTRAINT PK_COMPTE_RENDU PRIMARY KEY (ID_CR)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -139,7 +140,7 @@ CREATE TABLE REGION
    (
     ID_REG NUMBER(2)  NOT NULL,
     LIB_REG VARCHAR2(32)  NULL
-,   CONSTRAINT PK_REGION PRIMARY KEY (ID_REG)  
+,   CONSTRAINT PK_REGION PRIMARY KEY (ID_REG)
    ) ;
 
 -- -----------------------------------------------------------------------------
@@ -151,7 +152,7 @@ CREATE TABLE QUANTITE_MEDICAMENT
     ID_CR NUMBER(2)  NOT NULL,
     ID_MEDIC NUMBER(2)  NOT NULL,
     QTE_MEDIC VARCHAR2(128)  NULL
-,   CONSTRAINT PK_QUANTITE_MEDICAMENT PRIMARY KEY (ID_CR, ID_MEDIC)  
+,   CONSTRAINT PK_QUANTITE_MEDICAMENT PRIMARY KEY (ID_CR, ID_MEDIC)
    ) ;
 
 -- -----------------------------------------------------------------------------
