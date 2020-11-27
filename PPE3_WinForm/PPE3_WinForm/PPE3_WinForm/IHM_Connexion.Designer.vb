@@ -22,36 +22,40 @@ Partial Class IHM_Connexion
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.Login = New System.Windows.Forms.TextBox()
         Me.Mdp = New System.Windows.Forms.TextBox()
         Me.LabelLogin = New System.Windows.Forms.Label()
         Me.LabelMdp = New System.Windows.Forms.Label()
         Me.Connexion = New System.Windows.Forms.Button()
-        Me.LabelConnexion = New System.Windows.Forms.Label()
-        Me.DateDirect = New System.Windows.Forms.Label()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.HeureDirect = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Login
         '
-        Me.Login.Location = New System.Drawing.Point(179, 146)
+        Me.Login.Location = New System.Drawing.Point(72, 90)
         Me.Login.Name = "Login"
         Me.Login.Size = New System.Drawing.Size(100, 22)
         Me.Login.TabIndex = 0
         '
         'Mdp
         '
-        Me.Mdp.Location = New System.Drawing.Point(179, 203)
+        Me.Mdp.Location = New System.Drawing.Point(73, 163)
         Me.Mdp.Name = "Mdp"
         Me.Mdp.Size = New System.Drawing.Size(100, 22)
         Me.Mdp.TabIndex = 1
+        Me.Mdp.UseSystemPasswordChar = True
         '
         'LabelLogin
         '
         Me.LabelLogin.AutoSize = True
-        Me.LabelLogin.Location = New System.Drawing.Point(118, 146)
+        Me.LabelLogin.ForeColor = System.Drawing.Color.White
+        Me.LabelLogin.Location = New System.Drawing.Point(98, 70)
         Me.LabelLogin.Name = "LabelLogin"
         Me.LabelLogin.Size = New System.Drawing.Size(51, 17)
         Me.LabelLogin.TabIndex = 2
@@ -60,7 +64,8 @@ Partial Class IHM_Connexion
         'LabelMdp
         '
         Me.LabelMdp.AutoSize = True
-        Me.LabelMdp.Location = New System.Drawing.Point(67, 206)
+        Me.LabelMdp.ForeColor = System.Drawing.Color.White
+        Me.LabelMdp.Location = New System.Drawing.Point(69, 143)
         Me.LabelMdp.Name = "LabelMdp"
         Me.LabelMdp.Size = New System.Drawing.Size(102, 17)
         Me.LabelMdp.TabIndex = 3
@@ -68,68 +73,76 @@ Partial Class IHM_Connexion
         '
         'Connexion
         '
-        Me.Connexion.Location = New System.Drawing.Point(179, 268)
+        Me.Connexion.BackColor = System.Drawing.Color.White
+        Me.Connexion.ForeColor = System.Drawing.Color.LightSkyBlue
+        Me.Connexion.Location = New System.Drawing.Point(73, 286)
         Me.Connexion.Name = "Connexion"
         Me.Connexion.Size = New System.Drawing.Size(100, 30)
         Me.Connexion.TabIndex = 4
         Me.Connexion.Text = "Connexion"
-        Me.Connexion.UseVisualStyleBackColor = True
+        Me.Connexion.UseVisualStyleBackColor = False
         '
-        'LabelConnexion
+        'Panel1
         '
-        Me.LabelConnexion.AutoSize = True
-        Me.LabelConnexion.BackColor = System.Drawing.Color.GreenYellow
-        Me.LabelConnexion.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelConnexion.Location = New System.Drawing.Point(135, 86)
-        Me.LabelConnexion.Name = "LabelConnexion"
-        Me.LabelConnexion.Size = New System.Drawing.Size(180, 20)
-        Me.LabelConnexion.TabIndex = 5
-        Me.LabelConnexion.Text = "Veuillez vous identifiez"
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(341, 340)
+        Me.Panel1.TabIndex = 8
         '
-        'DateDirect
+        'PictureBox1
         '
-        Me.DateDirect.AutoSize = True
-        Me.DateDirect.BackColor = System.Drawing.Color.GreenYellow
-        Me.DateDirect.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateDirect.Location = New System.Drawing.Point(12, 9)
-        Me.DateDirect.Name = "DateDirect"
-        Me.DateDirect.Size = New System.Drawing.Size(111, 20)
-        Me.DateDirect.TabIndex = 6
-        Me.DateDirect.Text = "dd MMM yyyy"
+        Me.PictureBox1.Enabled = False
+        Me.PictureBox1.Image = Global.PPE3.My.Resources.Resources.Logo_gsb
+        Me.PictureBox1.Location = New System.Drawing.Point(48, 89)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(232, 124)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
-        'Timer1
+        'Panel2
         '
-        Me.Timer1.Interval = 1000
+        Me.Panel2.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Panel2.Controls.Add(Me.CheckBox1)
+        Me.Panel2.Controls.Add(Me.Login)
+        Me.Panel2.Controls.Add(Me.Connexion)
+        Me.Panel2.Controls.Add(Me.LabelMdp)
+        Me.Panel2.Controls.Add(Me.Mdp)
+        Me.Panel2.Controls.Add(Me.LabelLogin)
+        Me.Panel2.Location = New System.Drawing.Point(340, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(229, 340)
+        Me.Panel2.TabIndex = 9
         '
-        'HeureDirect
+        'CheckBox1
         '
-        Me.HeureDirect.AutoSize = True
-        Me.HeureDirect.BackColor = System.Drawing.Color.GreenYellow
-        Me.HeureDirect.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HeureDirect.Location = New System.Drawing.Point(314, 9)
-        Me.HeureDirect.Name = "HeureDirect"
-        Me.HeureDirect.Size = New System.Drawing.Size(103, 20)
-        Me.HeureDirect.TabIndex = 7
-        Me.HeureDirect.Text = "hh : mm : ss"
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.ForeColor = System.Drawing.Color.White
+        Me.CheckBox1.Location = New System.Drawing.Point(52, 224)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(144, 21)
+        Me.CheckBox1.TabIndex = 5
+        Me.CheckBox1.Text = "Voir Mot de passe"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'IHM_Connexion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(432, 437)
-        Me.Controls.Add(Me.HeureDirect)
-        Me.Controls.Add(Me.DateDirect)
-        Me.Controls.Add(Me.LabelConnexion)
-        Me.Controls.Add(Me.Connexion)
-        Me.Controls.Add(Me.LabelMdp)
-        Me.Controls.Add(Me.LabelLogin)
-        Me.Controls.Add(Me.Mdp)
-        Me.Controls.Add(Me.Login)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(569, 340)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
+        Me.DoubleBuffered = True
+        Me.Name = "IHM_Connexion"
+        Me.Text = "Authentification"
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Login As System.Windows.Forms.TextBox
@@ -137,9 +150,9 @@ Partial Class IHM_Connexion
     Friend WithEvents LabelLogin As System.Windows.Forms.Label
     Friend WithEvents LabelMdp As System.Windows.Forms.Label
     Friend WithEvents Connexion As System.Windows.Forms.Button
-    Friend WithEvents LabelConnexion As System.Windows.Forms.Label
-    Friend WithEvents DateDirect As System.Windows.Forms.Label
-    Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents HeureDirect As System.Windows.Forms.Label
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class

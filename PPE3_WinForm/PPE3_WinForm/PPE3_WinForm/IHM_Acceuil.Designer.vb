@@ -32,7 +32,7 @@ Partial Class IHM_Acceuil
         Me.AffichePrenom = New System.Windows.Forms.Label()
         Me.AfficheCompteRendu = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Deconnexion = New System.Windows.Forms.Button()
+        Me.Fermeture = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'DateDirect
@@ -126,16 +126,16 @@ Partial Class IHM_Acceuil
         Me.Button2.Text = "Consultation des statistiques"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Deconnexion
+        'Fermeture
         '
-        Me.Deconnexion.BackColor = System.Drawing.Color.OrangeRed
-        Me.Deconnexion.ForeColor = System.Drawing.Color.White
-        Me.Deconnexion.Location = New System.Drawing.Point(513, 9)
-        Me.Deconnexion.Name = "Deconnexion"
-        Me.Deconnexion.Size = New System.Drawing.Size(152, 39)
-        Me.Deconnexion.TabIndex = 15
-        Me.Deconnexion.Text = "Déconnexion"
-        Me.Deconnexion.UseVisualStyleBackColor = False
+        Me.Fermeture.BackColor = System.Drawing.Color.OrangeRed
+        Me.Fermeture.ForeColor = System.Drawing.Color.White
+        Me.Fermeture.Location = New System.Drawing.Point(513, 9)
+        Me.Fermeture.Name = "Fermeture"
+        Me.Fermeture.Size = New System.Drawing.Size(152, 39)
+        Me.Fermeture.TabIndex = 15
+        Me.Fermeture.Text = "Fermeture"
+        Me.Fermeture.UseVisualStyleBackColor = False
         '
         'IHM_Acceuil
         '
@@ -144,7 +144,7 @@ Partial Class IHM_Acceuil
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(677, 443)
-        Me.Controls.Add(Me.Deconnexion)
+        Me.Controls.Add(Me.Fermeture)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.AfficheCompteRendu)
         Me.Controls.Add(Me.AffichePrenom)
@@ -169,5 +169,5 @@ Partial Class IHM_Acceuil
     Friend WithEvents AffichePrenom As System.Windows.Forms.Label
     Friend WithEvents AfficheCompteRendu As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Deconnexion As System.Windows.Forms.Button
+    Friend WithEvents Fermeture As System.Windows.Forms.Button
 End Class

@@ -85,6 +85,12 @@
       <DependentUpon>IHM_Connexion.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IHM_Creation_User.Designer.vb">
+      <DependentUpon>IHM_Creation_User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IHM_Creation_User.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +114,9 @@
     <EmbeddedResource Include="IHM_Connexion.resx">
       <DependentUpon>IHM_Connexion.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IHM_Creation_User.resx">
+      <DependentUpon>IHM_Creation_User.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -116,6 +125,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -128,6 +138,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo-gsb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-18-ffffff-428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-18-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,3 +8,5 @@ D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\obj\x8
 D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\obj\x86\Debug\PPE3_WinForm.pdb
 D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\obj\x86\Debug\PPE3.IHM_Acceuil.resources
 D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\obj\x86\Debug\PPE3.IHM_Connexion.resources
+D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\bin\Debug\PPE3_WinForm.exe.config
+D:\GitHubDesktop\PPE_GSB_VB_ORACLE\PPE3_WinForm\PPE3_WinForm\PPE3_WinForm\obj\x86\Debug\PPE3.IHM_Creation_User.resources
