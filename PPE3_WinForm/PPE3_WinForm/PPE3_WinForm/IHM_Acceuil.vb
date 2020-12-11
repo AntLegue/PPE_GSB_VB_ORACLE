@@ -11,18 +11,18 @@
         Timer1.Enabled = True
 
         'Connexion à l'utilisateur de la base
-        connString = "DSN=PPEORA;Uid=PPE3_GSB;Pwd=estran;"
+        'connString = "DSN=PPEORA;Uid=PPE3_GSB;Pwd=estran;"
 
-        myConnection.ConnectionString = connString
+        'myConnection.ConnectionString = connString
 
         'Boucle de connexion à la base oracle avec gestion d'erreur
-        Try
-            myConnection.Open()
-            MessageBox.Show("Connexion Oracle Réussie")
+        'Try
+        'myConnection.Open()
+        'MessageBox.Show("Connexion Oracle Réussie")
 
-        Catch ex As Odbc.OdbcException
-            MessageBox.Show(ex.Message)
-        End Try
+        '     Catch ex As Odbc.OdbcException
+        'MessageBox.Show(ex.Message)
+        'End Try
 
     End Sub
 
@@ -38,5 +38,12 @@
     Private Sub Fermeture_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Fermeture.Click
         'Ferme l'application
         Application.ExitThread()
+    End Sub
+
+
+    Private Sub ConsultStat_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ConsultStat.Click
+        Me.Hide()
+        IHM_Consult_Stat.Show()
+
     End Sub
 End Class

@@ -85,6 +85,12 @@
       <DependentUpon>IHM_Connexion.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IHM_Consult_Stat.Designer.vb">
+      <DependentUpon>IHM_Consult_Stat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IHM_Consult_Stat.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="IHM_Creation_User.Designer.vb">
       <DependentUpon>IHM_Creation_User.vb</DependentUpon>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IHM_Connexion.resx">
       <DependentUpon>IHM_Connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM_Consult_Stat.resx">
+      <DependentUpon>IHM_Consult_Stat.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IHM_Creation_User.resx">
       <DependentUpon>IHM_Creation_User.vb</DependentUpon>
@@ -147,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-gsb_blanc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

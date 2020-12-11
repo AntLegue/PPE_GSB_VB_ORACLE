@@ -38,16 +38,18 @@ Partial Class IHM_Connexion
         '
         'Login
         '
-        Me.Login.Location = New System.Drawing.Point(72, 90)
+        Me.Login.Location = New System.Drawing.Point(54, 73)
+        Me.Login.Margin = New System.Windows.Forms.Padding(2)
         Me.Login.Name = "Login"
-        Me.Login.Size = New System.Drawing.Size(100, 22)
+        Me.Login.Size = New System.Drawing.Size(76, 20)
         Me.Login.TabIndex = 0
         '
         'Mdp
         '
-        Me.Mdp.Location = New System.Drawing.Point(73, 163)
+        Me.Mdp.Location = New System.Drawing.Point(55, 132)
+        Me.Mdp.Margin = New System.Windows.Forms.Padding(2)
         Me.Mdp.Name = "Mdp"
-        Me.Mdp.Size = New System.Drawing.Size(100, 22)
+        Me.Mdp.Size = New System.Drawing.Size(76, 20)
         Me.Mdp.TabIndex = 1
         Me.Mdp.UseSystemPasswordChar = True
         '
@@ -55,9 +57,10 @@ Partial Class IHM_Connexion
         '
         Me.LabelLogin.AutoSize = True
         Me.LabelLogin.ForeColor = System.Drawing.Color.White
-        Me.LabelLogin.Location = New System.Drawing.Point(98, 70)
+        Me.LabelLogin.Location = New System.Drawing.Point(74, 57)
+        Me.LabelLogin.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelLogin.Name = "LabelLogin"
-        Me.LabelLogin.Size = New System.Drawing.Size(51, 17)
+        Me.LabelLogin.Size = New System.Drawing.Size(39, 13)
         Me.LabelLogin.TabIndex = 2
         Me.LabelLogin.Text = "Login :"
         '
@@ -65,9 +68,10 @@ Partial Class IHM_Connexion
         '
         Me.LabelMdp.AutoSize = True
         Me.LabelMdp.ForeColor = System.Drawing.Color.White
-        Me.LabelMdp.Location = New System.Drawing.Point(69, 143)
+        Me.LabelMdp.Location = New System.Drawing.Point(52, 116)
+        Me.LabelMdp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelMdp.Name = "LabelMdp"
-        Me.LabelMdp.Size = New System.Drawing.Size(102, 17)
+        Me.LabelMdp.Size = New System.Drawing.Size(78, 13)
         Me.LabelMdp.TabIndex = 3
         Me.LabelMdp.Text = "Mot de Passe :"
         '
@@ -75,9 +79,10 @@ Partial Class IHM_Connexion
         '
         Me.Connexion.BackColor = System.Drawing.Color.White
         Me.Connexion.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Connexion.Location = New System.Drawing.Point(73, 286)
+        Me.Connexion.Location = New System.Drawing.Point(55, 232)
+        Me.Connexion.Margin = New System.Windows.Forms.Padding(2)
         Me.Connexion.Name = "Connexion"
-        Me.Connexion.Size = New System.Drawing.Size(100, 30)
+        Me.Connexion.Size = New System.Drawing.Size(75, 24)
         Me.Connexion.TabIndex = 4
         Me.Connexion.Text = "Connexion"
         Me.Connexion.UseVisualStyleBackColor = False
@@ -86,18 +91,20 @@ Partial Class IHM_Connexion
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Location = New System.Drawing.Point(-4, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(341, 340)
+        Me.Panel1.Size = New System.Drawing.Size(260, 283)
         Me.Panel1.TabIndex = 8
         '
         'PictureBox1
         '
         Me.PictureBox1.Enabled = False
         Me.PictureBox1.Image = Global.PPE3.My.Resources.Resources.Logo_gsb
-        Me.PictureBox1.Location = New System.Drawing.Point(48, 89)
+        Me.PictureBox1.Location = New System.Drawing.Point(36, 72)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(232, 124)
+        Me.PictureBox1.Size = New System.Drawing.Size(174, 101)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -111,31 +118,34 @@ Partial Class IHM_Connexion
         Me.Panel2.Controls.Add(Me.LabelMdp)
         Me.Panel2.Controls.Add(Me.Mdp)
         Me.Panel2.Controls.Add(Me.LabelLogin)
-        Me.Panel2.Location = New System.Drawing.Point(340, 0)
+        Me.Panel2.Location = New System.Drawing.Point(255, 0)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(229, 340)
+        Me.Panel2.Size = New System.Drawing.Size(172, 276)
         Me.Panel2.TabIndex = 9
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
-        Me.CheckBox1.Location = New System.Drawing.Point(52, 224)
+        Me.CheckBox1.Location = New System.Drawing.Point(39, 182)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(144, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(111, 17)
         Me.CheckBox1.TabIndex = 5
         Me.CheckBox1.Text = "Voir Mot de passe"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'IHM_Connexion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(569, 340)
+        Me.ClientSize = New System.Drawing.Size(427, 276)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.DoubleBuffered = True
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "IHM_Connexion"
         Me.Text = "Authentification"
         Me.Panel1.ResumeLayout(False)
