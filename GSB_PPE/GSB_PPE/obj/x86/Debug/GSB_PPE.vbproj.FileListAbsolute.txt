@@ -1,0 +1,20 @@
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.exe
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.pdb
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.xml
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Form1.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Resources.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.vbproj.GenerateResource.Cache
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.exe
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.xml
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.pdb
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Saisie_CR.resources
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.exe
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.xml
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.pdb
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.exe
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.pdb
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\bin\Debug\GSB_PPE.xml
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Form1.resources
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Resources.resources
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.Saisie_CR.resources
+B:\Development\VisualStudio\Code\TP\2nd année\GSB_PPE\GSB_PPE\obj\x86\Debug\GSB_PPE.vbproj.GenerateResource.Cache

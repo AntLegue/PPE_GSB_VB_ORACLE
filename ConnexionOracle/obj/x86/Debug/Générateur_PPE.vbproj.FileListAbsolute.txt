@@ -1,0 +1,32 @@
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.exe.config
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.exe
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.pdb
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.xml
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\Générateur_PPE.vbprojResolveAssemblyReference.cache
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Accueil_Gen.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Sec.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Reg.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Vis.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Resources.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\Générateur_PPE.vbproj.GenerateResource.Cache
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.exe
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.xml
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.pdb
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Med.resources
+F:\Développement\VisualBasic\Visual Studio 2010\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Medic.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.exe.config
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.exe
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.xml
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.pdb
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.exe
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.pdb
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\bin\Debug\ConnexionOracle.xml
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\Générateur_PPE.vbprojResolveAssemblyReference.cache
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Accueil_Gen.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Med.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Medic.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Sec.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Reg.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Ajout_Vis.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\ConnexionOracle.Resources.resources
+B:\Development\VisualStudio\Code\TP\2nd année\ConnexionOracle\obj\x86\Debug\Générateur_PPE.vbproj.GenerateResource.Cache

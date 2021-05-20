@@ -1,0 +1,38 @@
+connString = "DSN=ORA12;Uid=SC_GSB;Pwd=Iroise29;"
+
+
+        Dim myConnection As New Odbc.OdbcConnection
+        myConnection.ConnectionString = connString
+
+        Try
+            myConnection.Open()
+            MessageBox.Show("Connexion Oracle Effectué")
+        Catch ex As Odbc.OdbcException
+            MessageBox.Show(ex.Message)
+        End Try
+
+        Dim requete As String = "INSERT INTO VISITEUR (ID_VIS,ID_REG,NOM_VIS,PRENOM_VIS);" & "VALUES (@IDVIS,@IDREG,@NOMVIS,@PRENOMVIS);"
+        Dim cmd As OracleCommand = New OracleCommand(requete, myConnection)
+        cmd.Parameters.Add("@IDVIS", Convert.ToInt32(InsertIdVis.Text))
+        cmd.Parameters.Add("@IDREG", Convert.ToInt32(InsertIdReg.Text))
+        cmd.Parameters.Add("@NOMVIS", Convert.ToString(InsertNom.Text))
+        cmd.Parameters.Add("@PRENOMVIS", Convert.ToString(InsertPrenom.Text))
+        Try
+            myConnection.Open()
+            cmd.ExecuteNonQuery()
+            InsertIdVis.Clear()
+            InsertNom.Clear()
+            InsertPrenom.Clear()
+            MessageBox.Show("Insertion effectuée")
+            myConnection.Close()
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Try
+                If (myConnection.State = ConnectionState.Open) Then
+                    myConnection.Close()
+                End If
+            Catch ex2 As Exception
+                MsgBox(ex2.Message)
+            End Try
+        End Try
